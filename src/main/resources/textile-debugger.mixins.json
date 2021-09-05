@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "textile.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "server.MixinAbstractBlockState",
+    "server.MixinMinecraftServer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
